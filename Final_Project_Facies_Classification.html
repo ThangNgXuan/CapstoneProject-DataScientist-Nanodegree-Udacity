@@ -13135,7 +13135,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Final-Project---Facies-(Lithology-rock-types)-Classification-using-Machine-Learning">Final Project - Facies (Lithology rock types) Classification using Machine Learning<a class="anchor-link" href="#Final-Project---Facies-(Lithology-rock-types)-Classification-using-Machine-Learning">&#182;</a></h2><h3 id="Author-by-Nguyen-Xuan-Thang">Author by Nguyen Xuan Thang<a class="anchor-link" href="#Author-by-Nguyen-Xuan-Thang">&#182;</a></h3><h2 id="Table-of-Contents">Table of Contents<a class="anchor-link" href="#Table-of-Contents">&#182;</a></h2><ul>
+<h2 id="Final-Project---Facies-(Lithology-rock-types)-Classificationn-using-Machine-Learning">Final Project - Facies (Lithology rock types) Classificationn using Machine Learning<a class="anchor-link" href="#Final-Project---Facies-(Lithology-rock-types)-Classificationn-using-Machine-Learning">&#182;</a></h2><h3 id="Author-by-Nguyen-Xuan-Thang">Author by Nguyen Xuan Thang<a class="anchor-link" href="#Author-by-Nguyen-Xuan-Thang">&#182;</a></h3><h2 id="Table-of-Contents">Table of Contents<a class="anchor-link" href="#Table-of-Contents">&#182;</a></h2><ul>
 <li><a href="#pd">Project Scope</a></li>
 <li><a href="#ana">Explanatory Analysis</a></li>
 <li><a href="#meth">Methodology</a></li>
@@ -13161,6 +13161,7 @@ div#notebook {
 <li><strong>Problem Proposition</strong>: In this study, machine learning algorithms (Neural Networks) are trained to predict facies from well log data using data from continuous logs (NPHI, RHOB, VCL, DT &amp; and discrete log: Facies), in order to create a model for future facies forecast for another well without facies interpretation.</li>
 <li><strong>Metrics</strong>: As a classification strategy in this research, we employed performance metrics including recall, accuracy, and F1-Score.</li>
 </ul>
+<p><strong>The key of performance</strong> metrics used in this study is classification metrics such as precision, recall, and F1-Score was used to validate model, these metrics that comes from the concepts of True Positive, True Negative, False Positive, and False Negative.</p>
 
 </div>
 </div>
@@ -13200,7 +13201,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="1.-Data-Wrangling">1. Data Wrangling<a class="anchor-link" href="#1.-Data-Wrangling">&#182;</a></h2>
+<h2 id="1.-Data-Understanding">1. Data Understanding<a class="anchor-link" href="#1.-Data-Understanding">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -13234,6 +13235,13 @@ div#notebook {
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Load-and-read-data-from-csv-file">Load and read data from csv file<a class="anchor-link" href="#Load-and-read-data-from-csv-file">&#182;</a></h4>
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -13556,6 +13564,13 @@ div#notebook {
 </div>
 </div>
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Plot-the-chart-to-visualize-the-histogram-of-Litho_Facies_Label">Plot the chart to visualize the histogram of Litho_Facies_Label<a class="anchor-link" href="#Plot-the-chart-to-visualize-the-histogram-of-Litho_Facies_Label">&#182;</a></h4>
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[7]:</div>
@@ -13602,6 +13617,13 @@ div#notebook {
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Plot-the-heat-map-chart-to-preview-correlation">Plot the heat map chart to preview correlation<a class="anchor-link" href="#Plot-the-heat-map-chart-to-preview-correlation">&#182;</a></h4>
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -13672,6 +13694,13 @@ div#notebook {
 </div>
 
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Plot-the-scatter-chart-to-display-the-correation-of-Litho_Facies_Label">Plot the scatter chart to display the correation of Litho_Facies_Label<a class="anchor-link" href="#Plot-the-scatter-chart-to-display-the-correation-of-Litho_Facies_Label">&#182;</a></h4>
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[10]:</div>
@@ -13708,6 +13737,13 @@ div#notebook {
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Plot-the-bar-chart-to-display-te-distribution-of-Facies">Plot the bar chart to display te distribution of Facies<a class="anchor-link" href="#Plot-the-bar-chart-to-display-te-distribution-of-Facies">&#182;</a></h4>
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -14915,6 +14951,13 @@ Name: Litho_Facies, dtype: int64</pre>
 </div>
 </div>
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Apply-the-Robust-Scaler-model-to-extract-the-feature-for-tranformation">Apply the Robust Scaler model to extract the feature for tranformation<a class="anchor-link" href="#Apply-the-Robust-Scaler-model-to-extract-the-feature-for-tranformation">&#182;</a></h4>
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[27]:</div>
@@ -14948,6 +14991,13 @@ Name: Litho_Facies, dtype: int64</pre>
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Transform-the-train-dataset-to-standardized-data">Transform the train dataset to standardized data<a class="anchor-link" href="#Transform-the-train-dataset-to-standardized-data">&#182;</a></h4>
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -14994,6 +15044,13 @@ Scaled IQR : [1. 1. 1. 1. 1. 1.]
 </div>
 
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Scale-the-test-data-using-the-parameters-learnt-from-the-training-dataset">Scale the test data using the parameters learnt from the training dataset<a class="anchor-link" href="#Scale-the-test-data-using-the-parameters-learnt-from-the-training-dataset">&#182;</a></h4>
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[29]:</div>
@@ -15029,6 +15086,13 @@ IQR of scaled test data: [0.97921923 0.96995344 1.00562543 0.94260004 0.98934024
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Plot-the-chart-to-display-the-histogram-of-training-data-distribution">Plot the chart to display the histogram of training data distribution<a class="anchor-link" href="#Plot-the-chart-to-display-the-histogram-of-training-data-distribution">&#182;</a></h4>
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -15078,6 +15142,13 @@ IQR of scaled test data: [0.97921923 0.96995344 1.00562543 0.94260004 0.98934024
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Create-two-dataframes-for-X-train-and-X-test">Create two dataframes for X train and X test<a class="anchor-link" href="#Create-two-dataframes-for-X-train-and-X-test">&#182;</a></h4>
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">

@@ -6,6 +6,8 @@ In this project, I made the decision to analyze the data from the drilled wells 
 - **Problem Proposition**: In this study, machine learning algorithms (Neural Networks) are trained to predict facies from well log data using data from continuous logs (NPHI, RHOB, VCL, DT & and discrete log: Facies), in order to create a model for future facies forecast for another well without facies interpretation.
 - **Metrics**: As a classification strategy in this research, we employed performance metrics including recall, accuracy, and F1-Score.
 
+The key of performance metrics used in this study is classification metrics such as precision, recall, and F1-Score was used to validate model, these metrics that comes from the concepts of True Positive, True Negative, False Positive, and False Negative.
+
 ## Installation
 There are some neccessary library nees to install such as:
 - numPy
@@ -21,3 +23,8 @@ There are some neccessary library nees to install such as:
 ## Results<a name="results"></a>
 
 The main findings of the code can be found at the post available [here](https://plum-pedestrian-ee8.notion.site/Rock-Type-Classification-applying-Neural-Network-Machine-Learning-2b24047dad434ac0a716fa444d6d9f09).
+
+## Acknowledgements
+- For more information about comparation between Accuracy and F1_score, you can follow this link (https://medium.com/analytics-vidhya/accuracy-vs-f1-score-6258237beca2)
+- A Neural Network Implementation in Sklearn (https://scikit-learn.org/stable/modules/neural_networks_supervised.html#mlp-tips)
+- You can find more information about Robust Scaler in this link (https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.RobustScaler.html)
